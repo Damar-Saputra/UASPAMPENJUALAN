@@ -13,8 +13,8 @@ public class ActivityLihatData extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lihat_data);
 
-        tvnama = findViewById(R.id.tvNamaKontak);
-        tvnomor = findViewById(R.id.tvNomorTelepon);
+        tvnama = findViewById(R.id.tvNamaBarang);
+        tvnomor = findViewById(R.id.tvNomorSize);
 
         Bundle bundle = getIntent().getExtras();
 
@@ -22,45 +22,45 @@ public class ActivityLihatData extends AppCompatActivity {
 
         switch (nama)
         {
-            case "Inayah":
-                tvnama.setText("Inayah M");
-                tvnomor.setText("08122233344");
+            case "Compass Gazelle High":
+                tvnama.setText("Compass Gazelle High-Black");
+                tvnomor.setText("43");
                 break;
-            case "Ilham":
-                tvnama.setText("Ilham R");
-                tvnomor.setText("08133224455");
+            case "Compass Gazelle Low":
+                tvnama.setText("Compass Gazelle Low-Black");
+                tvnomor.setText("41");
                 break;
-            case "Eris":
-                tvnama.setText("Eris J");
-                tvnomor.setText("0812553344");
+            case "Compass Bravo High":
+                tvnama.setText("Compass Bravo High");
+                tvnomor.setText("39 40 42");
                 break;
-            case "Fikri":
-                tvnama.setText("M Fikri");
-                tvnomor.setText("08122453344");
+            case "Compass Bravo Low":
+                tvnama.setText("Compass Bravo Low");
+                tvnomor.setText("40 41 42 43");
                 break;
-            case "Maul":
-                tvnama.setText("Maul M");
-                tvnomor.setText("0812663344");
+            case "Compass Research & Destroy (R&D) Proto 1 High":
+                tvnama.setText("Compass Research & Destroy (R&D) Proto 1 High");
+                tvnomor.setText("40");
                 break;
-            case "Intan":
-                tvnama.setText("Intan S");
-                tvnomor.setText("08122555344");
+            case "Compass Research & Destroy (R&D) Proto 1 Low":
+                tvnama.setText("Compass Research & Destroy (R&D) Proto 1 Low");
+                tvnomor.setText("40 41 42");
                 break;
-            case "Vina":
-                tvnama.setText("Vina R");
-                tvnomor.setText("08125556344");
+            case "Compass x Pot Meets Pop High":
+                tvnama.setText("Compass x Pot Meets Pop High");
+                tvnomor.setText("43");
                 break;
-            case "Gita":
-                tvnama.setText("Gita S");
-                tvnomor.setText("08199233344");
+            case "Compass x Oldblue.co High":
+                tvnama.setText("Compass x Oldblue.co High");
+                tvnomor.setText("40 41");
                 break;
-            case "Lutfi":
-                tvnama.setText("Lutfi M");
-                tvnomor.setText("08122233234");
+            case "Compass x Elders High":
+                tvnama.setText("Compass x Elders High");
+                tvnomor.setText("42");
                 break;
-            case "Vian":
-                tvnama.setText("Vian M");
-                tvnomor.setText("08122969344");
+            case "Compass seri Low Indonesia Hebat ":
+                tvnama.setText("Compass seri Low Indonesia Hebat ");
+                tvnomor.setText("43");
                 break;
         }
     }
